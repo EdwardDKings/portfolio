@@ -1,0 +1,112 @@
+*{
+  border-radius: 0 !important;
+}
+
+#main-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 40% 50%;
+}
+/* #portrait-Img{
+  background-image: url(/img/portrait.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+} */
+
+#main-header .port-item {
+  width: 33.33333%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.bg-black {
+  color: #fff;
+  background: #000;
+}
+
+.progress-bar {
+  font-size: 16px;
+}
+
+.no-gutters .col-lg-6 .project-img{
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+/* IMAGE Effect */
+.img-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #333;
+}
+
+.overlay-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.img-container{
+  position: relative;
+}
+.img-container:hover .img-overlay{
+  opacity: 0.95;
+}
+
+#form-Text{
+  font-size: 2rem;
+}
+#form a{
+  text-decoration: none;
+  color: #333;
+}
+
+/* BEFORE */
+@media (max-width: 509px) { /*Until 509*/
+  h1{
+    font-size: 3.4rem !important;
+  }
+}
+
+@media (max-width: 767px) { /*Until 767*/
+  .container {
+    margin: 0!important;
+    padding: 0;
+    max-width: 100%;
+  }
+  h1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  #lead-Text{
+    text-align: center;
+  }
+}
+/* AFTER  */
+@media(min-width: 992px){
+  h1 {
+    font-size: 3rem !important;
+  }
+}
+@media(min-width: 1199px){
+  h1 {
+    font-size: 4rem !important;
+  }
+} 
+
