@@ -1,3 +1,15 @@
+/* MODIFYING BOOSTRAP STYLES */
+.bg-primary{
+  background-color: #33658A !important;
+}
+.bg-warning{
+  background-color: #D64933 !important;
+}
+.bg-success{
+  background-color: #53A548 !important;
+}
+/* ================================================= */
+
 *{
   border-radius: 0 !important;
 }
@@ -6,15 +18,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 40% 50%;
+  object-position: 50% 50%;
 }
-/* #portrait-Img{
-  background-image: url(/img/portrait.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-} */
 
 #main-header .port-item {
   width: 33.33333%;
